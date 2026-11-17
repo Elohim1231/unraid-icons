@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b3a55"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="cloud" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FBAD41"/>
+      <stop offset="1" stop-color="#F6821F"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="48" fill="url(#bg)"/>
+  <!-- nuvola -->
+  <g fill="url(#cloud)">
+    <circle cx="96" cy="130" r="40"/>
+    <circle cx="140" cy="106" r="48"/>
+    <circle cx="188" cy="132" r="34"/>
+    <rect x="62" y="130" width="158" height="44" rx="22"/>
+  </g>
+  <!-- tunnel (arco) -->
+  <path d="M96 218 V176 a32 32 0 0 1 64 0 V218 Z" fill="#111827"/>
+  <path d="M110 218 V178 a18 18 0 0 1 36 0 V218 Z" fill="#2b3a55"/>
+  <!-- freccia di connessione -->
+  <path d="M128 214 V186 M118 196 L128 186 L138 196" stroke="#FBAD41" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
